@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+        
+.two{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(118, 118, 202);
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.one{
+     height: 100vh;
+     width: 50%;
+     background-color: rgb(118, 118, 202);
+     float: right ;
+     font-size: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+@media(max-width:500px)
+.two{
+    clear: both;
+    height: 50vh;
+    width: 100%;
+}
+.one{
+    clear: both;
+    height: 50vh;
+    width: 100%;
+}
